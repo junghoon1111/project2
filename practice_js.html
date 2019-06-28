@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2회차</title>
+    <link rel="stylesheet"  type="text/css" href="css/reset.css" />
+    <link rel="stylesheet"  type="text/css" href="css/style2.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+  </head>
+  <body>
+
+<script>
+var date=new Date();
+result1=date.getDate();
+console.log("오늘 날짜: "+result1);
+
+result2=date.getDay();
+console.log("오늘 요일"+result2);
+
+var str=new String("hello");
+result3=str.charAt(2);
+console.log(result3);
+
+</script>
+<button class="box" id="button1" onclick="alert('event onclick')">버튼1</button>
+<button class="box" id="button2" onmouseover="alert('event onmouseover')">버튼2</button>
+<button class="box" id="button3" onkeypress="alert('event onkeypress')">버튼3</button>
+<button class="box" id="button4" onmouseout="alert('event onmouseout')">버튼4</button>
+
+
+
+<form>
+<input type="button" value="js1번 실습" onclick = "test1()">
+</form>
+<form>
+<input type="button" value="js2번 실습" onclick = "test2()">
+</form>
+<form>
+<input type="button" value="js3번 실습" onclick = "test3()">
+</form>
+
+<ul>
+  <li>1입니다</li>
+  <li>2입니다</li>
+  <li>3입니다</li>
+  <li>4입니다</li>
+  <li>5입니다</li>
+</ul>
+
+<form>
+<input type="button" value="js4번 실습" onclick = "test4()">
+</form>
+
+<ul>
+  <li class="group">1입니다</li>
+  <li class="group">1입니다</li>
+  <li class="group">1입니다</li>
+  <li class="group">1입니다</li>
+  <li class="group">1입니다</li>
+</ul>
+<form>
+<input type="button" value="js5번 실습" onclick = "test5()">
+</form>
+
+
+<ul>
+  <li id="li1">1입니다</li>
+  <li id="li2">2입니다</li>
+  <li id="li3">3입니다</li>
+  <li id="li4">4입니다</li>
+  <li id="li5">5입니다</li>
+</ul>
+<form>
+<input type="button" value="js6번 실습" onclick = "test6()">
+</form>
+
+  </body>
+</html>
