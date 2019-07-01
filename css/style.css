@@ -7,28 +7,28 @@
 .hidden{display:none;}
 
 .slide a{
-  color:black;
+  color:grey;
   display:block;
   width:80px;
   height:40px;
   background-color:red;
 }
 
-body{background-color:rgb(166, 166, 148);}
+body{background-color:grey}
 #wrapper {
   width:960px;
   margin:0 auto;
 }
 header{
-  background-color:white;
-  color:grey;
-  font-size:50px;
-  height:90px;
+  background-color:black;
+  color:white;
+  font-size:40px;
+  height:70px;
   text-align: center;
   line-height:55px;
   padding-top:10px;
 }
-nav{background-color:rgb(190, 176, 124);
+nav{background-color:white;
 position:relative;}
 
 
@@ -43,7 +43,7 @@ position:relative;}
 
 
 .slide{
-  background-color:white;
+  background-color:grey;
   height:100px;
   position:absolute;
   width:100px;
@@ -55,36 +55,36 @@ position:relative;}
   float:left;
   width:510px;
   height:200px;
-  background-color:rgb(179, 179, 179);
+  background-color:white;
 }
 
 .section2 {
   float:left;
   width:510px;
   height:160px;
-  background-color:rgb(179, 179, 179);
+  background-color:white;
   margin-right:0px;
   margin-top:10px;
   padding-top:30px;
 }
 aside {
   width:280px;
-  height:390px;
+  height:400px;
   margin-left:520px;
   background-color:white;
-  border:5px solid cyan;
   position:fixed;
 }
 .mainwrapper {
   width:800px;
   height:1200px;
-  background-color:rgb(10, 15, 15);
+  background-color:black;
   margin-top:50px;
   margin-left:70px
 }
 footer {
-  background-color: rgb(190, 176, 124);
+  background-color: black;
   height:80px;
+  color: white;
   width:960px;
   margin-top:20px;
   /*position:absolute;
